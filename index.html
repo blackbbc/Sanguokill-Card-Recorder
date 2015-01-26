@@ -17,37 +17,49 @@
 <div layout="column" layout-fill>
   <md-content>
 
-    <md-toolbar class="md-primary md-hue-3 center">
+    <md-toolbar class="center md-primary md-hue-3">
       <h2>
         <span class="center">基本牌</span>
       </h2>
     </md-toolbar>
     <div layout="row">
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>杀</md-button>
-        <span class="right md-primary" flex>{{sha}}/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>杀</md-button>
+          <span class="right" flex>{{card[0]}}/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>闪</md-button>
-        <span class="right md-primary" flex>{{shan}}/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>闪</md-button>
+          <span class="right" flex>{{card[1]}}/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>桃</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>桃</md-button>
+          <span class="right" flex>{{card[2]}}/30<span>
+        </md-toolbar>
       </md-whiteframe>
     </div>
     <div layout="row">
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>雷 杀</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>雷 杀</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>火 杀</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>火 杀</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>酒</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>酒</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
     </div>
 
@@ -58,75 +70,111 @@
     </md-toolbar>
     <div layout="row">
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>决 斗</md-button>
-        <span class="right md-primary" flex>{{sha}}/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>决 斗</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>过河拆桥</md-button>
-        <span class="right md-primary" flex>{{shan}}/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>过河拆桥</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>顺手牵羊</md-button>
-        <span class="right md-primary" flex>28/30<span>
-      </md-whiteframe>
-    </div>
-    <div layout="row">
-      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>万箭齐发</md-button>
-        <span class="right md-primary" flex>28/30<span>
-      </md-whiteframe>
-      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>南蛮入侵</md-button>
-        <span class="right md-primary" flex>28/30<span>
-      </md-whiteframe>
-      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>桃园结义</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>顺手牵羊</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
     </div>
     <div layout="row">
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>无中生有</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>万箭齐发</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>五谷丰登</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>南蛮入侵</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>借刀杀人</md-button>
-        <span class="right md-primary" flex>28/30<span>
-      </md-whiteframe>
-    </div>
-    <div layout="row">
-      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>乐不思蜀</md-button>
-        <span class="right md-primary" flex>28/30<span>
-      </md-whiteframe>
-      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>闪 电</md-button>
-        <span class="right md-primary" flex>28/30<span>
-      </md-whiteframe>
-      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>无懈可击</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>桃园结义</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
     </div>
     <div layout="row">
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>火 攻</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>无中生有</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>兵粮寸断</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>五谷丰登</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
       <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
-        <md-button class="md-primary" flex>铁索连环</md-button>
-        <span class="right md-primary" flex>28/30<span>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>借刀杀人</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
+      </md-whiteframe>
+    </div>
+    <div layout="row">
+      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>乐不思蜀</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
+      </md-whiteframe>
+      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>闪 电</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
+      </md-whiteframe>
+      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>无懈可击</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
+      </md-whiteframe>
+    </div>
+    <div layout="row">
+      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>火 攻</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
+      </md-whiteframe>
+      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>兵粮寸断</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
+      </md-whiteframe>
+      <md-whiteframe class="md-whiteframe-z2" layout="row" layout-align="center center" flex>
+        <md-toolbar class="md-primary" layout="row" layout-align="center center">
+          <md-button flex>铁索连环</md-button>
+          <span class="right" flex>28/30<span>
+        </md-toolbar>
       </md-whiteframe>
     </div>
   </md-content>
+
+  <md-button class="md-fab md-accent md-hue-1" aria-label="refresh">
+    <md-icon icon="images/ic_refresh_24px.svg" style="width: 24px; height: 24px;">
+    </md-icon>
+  </md-button>
+
 </div>
 </body>
 </html>

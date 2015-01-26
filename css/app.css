@@ -22,3 +22,8 @@ md-whiteframe {
 .md-button {
   line-height: 25px;
 }
+
+.md-fab {
+  position:relative;
+  left: 940px;
+}
