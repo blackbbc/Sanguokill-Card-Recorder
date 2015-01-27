@@ -9,6 +9,10 @@
   margin:0 auto;
 }
 
+span {
+  color: white;
+}
+
 span.right {
   margin: 0 10px 0 0;
   text-align: right;
@@ -19,11 +23,15 @@ md-whiteframe {
   margin: 10px;
 }
 
-.md-button {
+md-button {
   line-height: 25px;
 }
 
 .md-fab {
   position:relative;
   left: 940px;
+}
+
+md-toolbar {
+  transition: background 0.5s;
 }
