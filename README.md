@@ -4,8 +4,16 @@
 
 开发中
 
-目前进度：UI
+已完成：
+- UI
+- Javascript
+
+目前进度：移植到chrome上
+
+未尽事宜：
+- 自动记牌
 
 ![UI][ui]
 
-[ui]: images/sanguokill.png
+[ui]: images/sgs01.png
+
