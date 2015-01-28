@@ -1,5 +1,5 @@
 {
-  "name": "Hello World!",
+  "name": "三国杀记牌器",
   "description": "My first Chrome App.",
   "version": "0.1",
   "manifest_version": 2,
