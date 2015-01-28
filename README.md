@@ -2,18 +2,24 @@
 
 嗯。用来练习开发chrome插件的
 
-开发中
+## 使用说明
+把app.crx拖到chrome上安装就好了
 
-已完成：
+
+### 已完成：
 - UI
 - Javascript
+- 移植到chrome上
 
-目前进度：移植到chrome上
+目前正在做：`自动化记牌`
 
-未尽事宜：
-- 自动记牌
+靠 Flash 要怎么抓包啊
+
+坑
+
 
 ![UI][ui]
 
-[ui]: images/sgs01.png
+[ui]: images/sgs02.png
+
 
